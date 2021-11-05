@@ -53,6 +53,24 @@ header .navigation .navigation-items a:hover:before {
   width: 100%;
 }
 
+.toggle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left: 40%;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.toggle.active {
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  cursor: pointer;
+}
+
 section {
   padding: 100px 200px;
 }
@@ -153,6 +171,10 @@ section {
 
   header .navigation {
     display: none;
+  }
+
+  header .toggle {
+    display: flex;
   }
 
   header .navigation.active {
