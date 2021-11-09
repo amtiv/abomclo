@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  overflow: hidden;
 }
 
 header {
@@ -69,11 +68,14 @@ header .navigation .navigation-items a:hover:before {
   cursor: pointer;
   display: none;
 }
+
 .toggle.active {
   background: url(https://i.ibb.co/rt3HybH/close.png);
   background-repeat: no-repeat;
   background-size: 25px;
+  background-position: center;
   cursor: pointer;
+  /* display: none; */
 }
 
 section {
@@ -419,3 +421,5 @@ section {
 .contact-form .send-btn:hover {
   background: #0582e3;
 }
+
+/* CONTACT */
