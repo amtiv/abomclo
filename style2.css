@@ -314,22 +314,3 @@ section {
     flex: 100%;
   }
 }
-
-.main-content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 100px 0 0;
-}
-
-.responsive {
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.26%;
-  position: relative;
-}
-
-.responsive iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}

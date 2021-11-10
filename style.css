@@ -75,7 +75,6 @@ header .navigation .navigation-items a:hover:before {
   background-size: 25px;
   background-position: center;
   cursor: pointer;
-  /* display: none; */
 }
 
 section {
