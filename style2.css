@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  overflow-y: hidden;
 }
 
 header {
@@ -73,7 +72,7 @@ header .navigation .navigation-items a:hover:before {
 }
 
 section {
-  padding: 100px 200px;
+  padding: 40px 50px;
 }
 
 .home {
@@ -99,7 +98,7 @@ section {
 
 .home .content {
   z-index: 888;
-  color: #fff;
+
   width: 70%;
   margin-top: 50px;
   display: none;
@@ -251,11 +250,7 @@ section {
 }
 
 .contact-in h1 {
-  font-size: 10px;
   color: #fff;
-  text-transform: uppercase;
-  font-weight: 200;
-  margin-bottom: 20px;
 }
 
 .contact-in h2 {
