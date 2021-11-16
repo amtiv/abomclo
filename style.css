@@ -129,7 +129,7 @@ section {
 }
 
 .home .content p {
-  margin-bottom: 65px;
+  margin-bottom: 25px;
 }
 
 .home .content .largo h1 {
@@ -420,5 +420,3 @@ section {
 .contact-form .send-btn:hover {
   background: #0582e3;
 }
-
-/* CONTACT */
